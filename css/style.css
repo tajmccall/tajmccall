@@ -3,6 +3,31 @@
     Author URL: http://kwillsoftware.com
 */
 
+#home {
+    
+    position: relative;
+    -webkit-animation: mymove 3s ; /* Safari 4.0 - 8.0 */
+    animation: mymove 3s ;
+}
+
+/* Safari 4.0 - 8.0 */
+
+#home {-webkit-animation-timing-function: ease-in;}
+
+#home {animation-timing-function: ease-in;}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: -400px;}
+    to {left: 0px;}
+}
+
+@keyframes mymove {
+    from {left: -400px;}
+    to {left: 0px;}
+}
+
 a {
     text-decoration-line : none !important;
     ;}
