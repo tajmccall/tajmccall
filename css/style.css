@@ -47,7 +47,7 @@ table {
 #banner{
     background: url(../img/frst.jpg) no-repeat center top;
     background-size: cover;
-    min-width: 100%;
+    min-height: 630px;
 
 }
 
