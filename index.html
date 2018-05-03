@@ -307,7 +307,15 @@ gland activity), respiration, heart rate variability, blood pressure, brain elec
     </div>
   </footer>
   <!-- / footer -->
-	  <script> var prevScrollpos = window.pageYOffset;
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+	  <script> 
+var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -316,14 +324,8 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
-}</script>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="contactform/contactform.js"></script>
-
+}
+        </script>
 </body>
 
 </html>
