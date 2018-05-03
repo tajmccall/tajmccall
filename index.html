@@ -20,6 +20,18 @@
     Author: kwillsoftware
     Author URL: http:/kwillsoftware.com
   ======================================================= -->
+		  <script> 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbr").style.top = "0";
+  } else {
+    document.getElementById("navbr").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+        </script>
 </head>
 
 <body>
@@ -314,18 +326,7 @@ gland activity), respiration, heart rate variability, blood pressure, brain elec
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
-	  <script> 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbr").style.top = "0";
-  } else {
-    document.getElementById("navbr").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-        </script>
+
 </body>
 
 </html>
