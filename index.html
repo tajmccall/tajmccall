@@ -24,18 +24,7 @@
 </head>
 
 <body>
-	  <script> 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbr").style.top = "0";
-  } else {
-    document.getElementById("navbr").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-        </script>
+	  
   <!--banner-->
   <section id="banner" >
 
@@ -319,6 +308,19 @@ gland activity), respiration, heart rate variability, blood pressure, brain elec
     </div>
   </footer>
   <!-- / footer -->
+	   
+	   <script> 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbr").style.top = "0";
+  } else {
+    document.getElementById("navbr").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+        </script>
 
 
   <script src="js/jquery.min.js"></script>
